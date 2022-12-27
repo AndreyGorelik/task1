@@ -1,0 +1,134 @@
+.player-controls svg {
+  fill: white;
+  height: 25px;
+}
+
+.player {
+  max-width: 1363px;
+  max-height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+.player-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 33px;
+  z-index: 99999;
+  width: 100%;
+  padding: 0 43px;
+}
+
+.player-controls__left {
+  display: flex;
+  gap: 40px;
+}
+
+.player-controls__right {
+  display: flex;
+  gap: 24px;
+}
+
+.player-controls__mute {
+  display: flex;
+  gap: 20px;
+}
+
+.player-controls-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
+  padding: 0 6px 12px;
+}
+
+.player-controls-mobile svg {
+  fill: white;
+  height: 12px;
+}
+
+.player-controls-mobile span {
+  color: white;
+}
+
+.player-controls-mobile .player__timebar-progress {
+  height: 5px;
+}
+
+.player-controls-mobile-wrapper {
+  background-color: #00000030;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 9px 18px;
+}
+
+.player__timebar-progress__bar {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.player__timebar-mobile-progress {
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  flex: 1 1 100%;
+}
+
+.player-controls__volume-bar {
+  width: 86px;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+.player__video-duration {
+  width: 100%;
+}
+
+.player-buttons {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.player__timebar-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player__timebar-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player__timebar-progress {
+  width: 100%;
+  margin: 13px 0;
+}
+
+.player-controls-mobile-wrapper {
+  display: none;
+}
+
+.channel-video-list__header .subscribe_btn {
+  position: absolute;
+  left: 78%;
+}
+
+@media screen and (max-width: 320px) {
+  .player-controls-mobile-wrapper {
+    display: flex;
+  }
+  .player-controls {
+    display: none;
+  }
+}

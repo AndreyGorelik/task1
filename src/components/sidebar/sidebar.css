@@ -1,0 +1,63 @@
+.sidebar {
+  flex-direction: column;
+  display: flex;
+  width: 222px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+  color: #898989;
+}
+
+.sidebar ul li {
+  display: flex;
+  margin-bottom: 29px;
+  cursor: pointer;
+}
+
+.sidebar .menu-img {
+    margin-right: 13px;
+}
+
+.sidebar ul li:hover {
+  color: #ff0000;
+}
+
+.sidebar__subscriptions {
+  margin-top: 30px;
+}
+
+.sidebar__subscriptions ul li {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.sidebar ul li img {
+  margin-right: 14px;
+}
+
+.sidebar__subscriptions ul li img {
+  width: 26px;
+  height: 26px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.settings-btn {
+  flex: 1 1 100%;
+  align-items: flex-end;
+  display: flex;
+}
+
+@media screen and (max-width: 320px) {
+  .sidebar {
+    display: none;
+  }
+}

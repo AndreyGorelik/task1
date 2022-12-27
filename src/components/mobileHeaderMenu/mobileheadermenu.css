@@ -1,0 +1,45 @@
+.mobile-header-menu {
+  display: none;
+}
+
+.mobile-header-menu {
+  justify-content: space-between;
+  flex: 0 0 100%;
+  align-items: center;
+  height: 60px;
+}
+
+.mobile-header-menu__left,
+.mobile-header-menu__right,
+.logo-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu-mobile {
+  padding-left: 45px;
+}
+
+span.header-channel-title {
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #19202c;
+}
+
+.user-icon-mobile {
+  padding-left: 24px;
+  height: 40px;
+}
+
+.user-menu-mobile,
+.search-mobile {
+  height: 19px;
+}
+
+@media screen and (max-width: 320px) {
+  .mobile-header-menu {
+    display: flex;
+  }
+}

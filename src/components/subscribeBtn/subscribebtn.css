@@ -1,0 +1,10 @@
+.subscribe_btn {
+    background-color: #ff0000;
+    display: flex;
+    flex-shrink: 0;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    height: 40px;
+    align-items: center;
+  }
